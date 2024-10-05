@@ -23,6 +23,16 @@
             margin: 0;
         }
 
+        /* 公告栏样式 */
+        #announcement {
+            background-color: #e6e6e6;
+            padding: 10px;
+            text-align: center;
+            margin: 10px auto;
+            width: 80%;
+            border-radius: 5px;
+        }
+
         /* 列表容器样式 */
         ul {
             list-style-type: none;
@@ -78,6 +88,10 @@
 
 <body>
     <h1>投票系统</h1>
+    <!-- 新增公告栏 -->
+    <div id="announcement">
+        <p>欢迎使用投票系统，y_bowen保留所有权利，域名由US.KG提供，网站托管由Github提供服务</p>
+    </div>
     <ul id="myList"></ul>
     <button id="resetButton">清零数字</button>
     <button id="contactButton">联系客服</button>
